@@ -1,0 +1,196 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 GET http://162.55.220.72:5006/first: \{\
+  "Network": \{\
+    "addresses": \{\
+      "local": \{\
+        "address": "192.168.0.103",\
+        "family": "IPv4",\
+        "port": 64594\
+      \},\
+      "remote": \{\
+        "address": "162.55.220.72",\
+        "family": "IPv4",\
+        "port": 5006\
+      \}\
+    \}\
+  \},\
+  "Request Headers": \{\
+    "user-agent": "PostmanRuntime/7.32.2",\
+    "accept": "*/*",\
+    "postman-token": "e8f0f251-5b2b-45e0-add9-f0075ad1ba86",\
+    "host": "162.55.220.72:5006",\
+    "accept-encoding": "gzip, deflate, br",\
+    "connection": "keep-alive"\
+  \},\
+  "Response Headers": \{\
+    "content-type": "text/html; charset=utf-8",\
+    "content-length": "39",\
+    "server": "Werkzeug/2.0.1 Python/3.8.10",\
+    "date": "Mon, 05 Jun 2023 13:50:58 GMT"\
+  \},\
+  "Response Body": "This is the first responce from server!"\
+\}\
+POST http://162.55.220.72:5006/user_info_3: \{\
+  "Network": \{\
+    "addresses": \{\
+      "local": \{\
+        "address": "192.168.0.103",\
+        "family": "IPv4",\
+        "port": 64595\
+      \},\
+      "remote": \{\
+        "address": "162.55.220.72",\
+        "family": "IPv4",\
+        "port": 5006\
+      \}\
+    \}\
+  \},\
+  "Request Headers": \{\
+    "user-agent": "PostmanRuntime/7.32.2",\
+    "accept": "*/*",\
+    "postman-token": "3c8e2b51-a02b-449d-ae46-c4572a6e24ca",\
+    "host": "162.55.220.72:5006",\
+    "accept-encoding": "gzip, deflate, br",\
+    "connection": "keep-alive",\
+    "content-type": "multipart/form-data; boundary=--------------------------405840797022330611334394",\
+    "content-length": "375"\
+  \},\
+  "Request Body": \{\
+    "name": "Olya",\
+    "age": "29",\
+    "salary": "500"\
+  \},\
+  "Response Headers": \{\
+    "content-type": "application/json",\
+    "content-length": "221",\
+    "server": "Werkzeug/2.0.1 Python/3.8.10",\
+    "date": "Mon, 05 Jun 2023 13:50:59 GMT"\
+  \},\
+  "Response Body": "\{\\n  \\"age\\": \\"29\\", \\n  \\"family\\": \{\\n    \\"children\\": [\\n      [\\n        \\"Alex\\", \\n        24\\n      ], \\n      [\\n        \\"Kate\\", \\n        12\\n      ]\\n    ], \\n    \\"u_salary_1_5_year\\": 2000\\n  \}, \\n  \\"name\\": \\"Olya\\", \\n  \\"salary\\": 500\\n\}\\n"\
+\}\
+\{ children: [ [ 'Alex', 24 ], [ 'Kate', 12 ] ],\
+  u_salary_1_5_year: 2000 \}\
+GET http://162.55.220.72:5006/object_info_3?name=Olya&age=29&salary=500: \{\
+  "Network": \{\
+    "addresses": \{\
+      "local": \{\
+        "address": "192.168.0.103",\
+        "family": "IPv4",\
+        "port": 64596\
+      \},\
+      "remote": \{\
+        "address": "162.55.220.72",\
+        "family": "IPv4",\
+        "port": 5006\
+      \}\
+    \}\
+  \},\
+  "Request Headers": \{\
+    "user-agent": "PostmanRuntime/7.32.2",\
+    "accept": "*/*",\
+    "postman-token": "d6ac6d73-b4ee-4ba9-99d1-907107c6397b",\
+    "host": "162.55.220.72:5006",\
+    "accept-encoding": "gzip, deflate, br",\
+    "connection": "keep-alive"\
+  \},\
+  "Response Headers": \{\
+    "content-type": "application/json",\
+    "content-length": "376",\
+    "server": "Werkzeug/2.0.1 Python/3.8.10",\
+    "date": "Mon, 05 Jun 2023 13:50:59 GMT"\
+  \},\
+  "Response Body": "\{\\n  \\"age\\": \\"29\\", \\n  \\"family\\": \{\\n    \\"children\\": [\\n      [\\n        \\"Alex\\", \\n        24\\n      ], \\n      [\\n        \\"Kate\\", \\n        12\\n      ]\\n    ], \\n    \\"pets\\": \{\\n      \\"cat\\": \{\\n        \\"age\\": 3, \\n        \\"name\\": \\"Sunny\\"\\n      \}, \\n      \\"dog\\": \{\\n        \\"age\\": 4, \\n        \\"name\\": \\"Luky\\"\\n      \}\\n    \}, \\n    \\"u_salary_1_5_year\\": 2000\\n  \}, \\n  \\"name\\": \\"Olya\\", \\n  \\"salary\\": 500\\n\}\\n"\
+\}\
+\{ children: [ [ 'Alex', 24 ], [ 'Kate', 12 ] ],\
+  pets: \
+   \{ cat: \{ age: 3, name: 'Sunny' \},\
+     dog: \{ age: 4, name: 'Luky' \} \},\
+  u_salary_1_5_year: 2000 \}\
+GET http://162.55.220.72:5006/object_info_4?name=Olya&age=29&salary=500: \{\
+  "Network": \{\
+    "addresses": \{\
+      "local": \{\
+        "address": "192.168.0.103",\
+        "family": "IPv4",\
+        "port": 64597\
+      \},\
+      "remote": \{\
+        "address": "162.55.220.72",\
+        "family": "IPv4",\
+        "port": 5006\
+      \}\
+    \}\
+  \},\
+  "Request Headers": \{\
+    "user-agent": "PostmanRuntime/7.32.2",\
+    "accept": "*/*",\
+    "postman-token": "2c8449f4-6fcd-41cc-b25d-24e1328b2622",\
+    "host": "162.55.220.72:5006",\
+    "accept-encoding": "gzip, deflate, br",\
+    "connection": "keep-alive"\
+  \},\
+  "Response Headers": \{\
+    "content-type": "application/json",\
+    "content-length": "89",\
+    "server": "Werkzeug/2.0.1 Python/3.8.10",\
+    "date": "Mon, 05 Jun 2023 13:50:59 GMT"\
+  \},\
+  "Response Body": "\{\\n  \\"age\\": 29, \\n  \\"name\\": \\"Olya\\", \\n  \\"salary\\": [\\n    500, \\n    \\"1000\\", \\n    \\"1500\\"\\n  ]\\n\}\\n"\
+\}\
+'Request salary = ', 500\
+'Response salary = ', [ 500, '1000', '1500' ]\
+'Response salary \uc0\u8470  0 = ', 500\
+'Response salary \uc0\u8470  1 = ', '1000'\
+'Response salary \uc0\u8470  2 = ', '1500'\
+'Salary list:'\
+500\
+'1000'\
+'1500'\
+POST http://162.55.220.72:5006/user_info_2: \{\
+  "Network": \{\
+    "addresses": \{\
+      "local": \{\
+        "address": "192.168.0.103",\
+        "family": "IPv4",\
+        "port": 64598\
+      \},\
+      "remote": \{\
+        "address": "162.55.220.72",\
+        "family": "IPv4",\
+        "port": 5006\
+      \}\
+    \}\
+  \},\
+  "Request Headers": \{\
+    "user-agent": "PostmanRuntime/7.32.2",\
+    "accept": "*/*",\
+    "postman-token": "70b7d16d-e57e-4362-997e-42e37c280eb1",\
+    "host": "162.55.220.72:5006",\
+    "accept-encoding": "gzip, deflate, br",\
+    "connection": "keep-alive",\
+    "content-type": "multipart/form-data; boundary=--------------------------467508242914757382327995",\
+    "content-length": "375"\
+  \},\
+  "Request Body": \{\
+    "name": "Olya",\
+    "age": "29",\
+    "salary": "500"\
+  \},\
+  "Response Headers": \{\
+    "content-type": "application/json",\
+    "content-length": "314",\
+    "server": "Werkzeug/2.0.1 Python/3.8.10",\
+    "date": "Mon, 05 Jun 2023 13:50:59 GMT"\
+  \},\
+  "Response Body": "\{\\n  \\"person\\": \{\\n    \\"u_age\\": 29, \\n    \\"u_name\\": [\\n      \\"Olya\\", \\n      500, \\n      29\\n    ], \\n    \\"u_salary_5_years\\": 2100.0\\n  \}, \\n  \\"qa_salary_after_1.5_year\\": 1650.0, \\n  \\"qa_salary_after_12_months\\": 1350.0, \\n  \\"qa_salary_after_3.5_years\\": 1900.0, \\n  \\"qa_salary_after_6_months\\": 1000, \\n  \\"start_qa_salary\\": 500\\n\}\\n"\
+\}\
+'Person list:'\
+'u_age:29'\
+'u_name:Olya,500,29'\
+'u_salary_5_years:2100'}

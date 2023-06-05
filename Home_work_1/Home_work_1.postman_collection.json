@@ -1,0 +1,278 @@
+{
+	"info": {
+		"_postman_id": "f1e4663b-75d8-467d-b6a2-90d823e107e4",
+		"name": "Home_work_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21754851",
+		"_collection_link": "https://www.postman.com/restless-star-665929/workspace/my-workspace/collection/21754851-f1e4663b-75d8-467d-b6a2-90d823e107e4?action=share&creator=21754851&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "/get_method",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005 /get_method?name=Olya&age=29",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005 ",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Olya"
+						},
+						{
+							"key": "age",
+							"value": "29"
+						}
+					]
+				},
+				"description": "Method: GET\n\nEndPoint: /get_method\n\nrequest url params:\n\nname: str\n\nage: int\n\nresponse:\n\n```\n[\n“Str”,\n“Str”\n]\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "/user_info_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Olya",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "500",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_3"
+					]
+				},
+				"description": "Method: POST\n\nEndPoint: /user_info_3\n\nrequest form data:\n\nname: str\n\nage: int\n\nsalary: int\n\nresponse:\n\n``` json\n{\n'name': name,\n'age': age,\n'salary': salary,\n'family': {\n            'children': [['Alex', 24],['Kate', 12]],\n            'u_salary_1_5_year': salary* 4  \n          }\n}\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "/object_info_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Olya&age=29&weight=63",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Olya"
+						},
+						{
+							"key": "age",
+							"value": "29"
+						},
+						{
+							"key": "weight",
+							"value": "63"
+						}
+					]
+				},
+				"description": "Method: GET\n\nEndPoint: /object_info_1\n\nrequest url params:\n\nname: str\n\nage: int\n\nweight: int\n\nresponse:\n\n``` json\n{\n'name': name,      \n'age': age,\n'daily_food': weight * 0.012,\n'daily_sleep': weight * 2.5\n}\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "/object_info_2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Olya&age=29&salary=500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Olya"
+						},
+						{
+							"key": "age",
+							"value": "29"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						}
+					]
+				},
+				"description": "Method: GET\n\nEndPoint: /object_info_2\n\nrequest url params:\n\nname: str\n\nage: int\n\nsalary: int\n\nresponse:\n\n``` json\n{\n'start_qa_salary': salary,\n'qa_salary_after_6_months': salary * 2,\n'qa_salary_after_12_months': salary * 2.7,\n'qa_salary_after_1.5_year': salary * 3.3,\n'qa_salary_after_3.5_years': salary * 3.8,\n'person': {\n            'u_name': [user_name, salary, age],\n            'u_age': age,\n            'u_salary_5_years': salary * 4.2\n          }\n}\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "/object_info_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Olya&age=29&salary=500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Olya"
+						},
+						{
+							"key": "age",
+							"value": "29"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						}
+					]
+				},
+				"description": "Method: GET\n\nEndPoint: /object_info_3\n\nrequest url params:\n\nname: str\n\nage: int\n\nsalary: int\n\nresponse:\n\n``` json\n{\n 'name': name,\n 'age': age,\n 'salary': salary,\n 'family': {\n             'children': [['Alex', 24], ['Kate', 12]],\n             'pets': {\n                       'cat':{\n                               'name':'Sunny',\n                               'age': 3\n                              },\n                        'dog':{\n                                'name':'Luky',\n                                 'age': 4\n                               }\n                       },\n              'u_salary_1_5_year': salary * 4\n            }\n}\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "/object_info_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Olya&age=29&salary=500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Olya"
+						},
+						{
+							"key": "age",
+							"value": "29"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						}
+					]
+				},
+				"description": "Method: GET\n\nEndPoint: /object_info_4\n\nrequest url params: \n\n name: str\n\n age: int\n\n salary: int\n\nresponse:\n\n``` json\n{\n 'name': name,\n 'age': int(age),\n 'salary': [salary, str(salary * 2), str(salary * 3)]\n}\n\n```"
+			},
+			"response": []
+		},
+		{
+			"name": "/user_info_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Olya",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "29",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "500",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					]
+				},
+				"description": "Method: POST\n\nEndPoint: /user_info_2\n\nrequest form data:\n\nname: str\n\nage: int\n\nsalary: int\n\nresponse:\n\n``` json\n{\n'start_qa_salary': salary,\n'qa_salary_after_6_months': salary * 2,\n'qa_salary_after_12_months': salary * 2.7,\n'qa_salary_after_1.5_year': salary * 3.3,\n 'qa_salary_after_3.5_years': salary * 3.8,\n 'person': {\n            'u_name': [user_name, salary, age],\n            'u_age': age,\n            'u_salary_5_years': salary * 4.2\n            }\n}\n\n```"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,316 @@
+{
+	"id": "e34da478-3d9e-4cd6-94c4-21d80556b656",
+	"name": "Home_work_3",
+	"timestamp": "2023-06-05T12:32:00.236Z",
+	"collection_id": "21754851-66d6ba13-96d9-4078-b125-08038974685b",
+	"folder_id": 0,
+	"environment_id": "21754851-f9da6aa3-b525-49a9-8c0f-5be4eb7dd67a",
+	"totalPass": 24,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-05T12:31:55.532Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5ac89d1f-2ac0-4959-9ef9-75cd1f403206",
+			"name": "/login",
+			"url": "http://162.55.220.72:5006/login",
+			"time": 413,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				413
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8b774bf7-11dd-486e-971a-458b1d962000",
+			"name": "/user_info",
+			"url": "http://162.55.220.72:5006/user_info",
+			"time": 277,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response JSON structure": true,
+				"Check start_qa_salary = request_salary by variable": true,
+				"Check qa_salary_after_6_months = request_salary * 2 by variable": true,
+				"Check qa_salary_after_12_months = request_salary * 2,9 by variable": true,
+				"Check u_salary_1_5_year = request_salary * 4 by variable": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response JSON structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check start_qa_salary = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_6_months = request_salary * 2 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_12_months = request_salary * 2,9 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_salary_1_5_year = request_salary * 4 by variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response JSON structure": true,
+					"Check start_qa_salary = request_salary by variable": true,
+					"Check qa_salary_after_6_months = request_salary * 2 by variable": true,
+					"Check qa_salary_after_12_months = request_salary * 2,9 by variable": true,
+					"Check u_salary_1_5_year = request_salary * 4 by variable": true
+				}
+			]
+		},
+		{
+			"id": "2778d959-8d55-47cc-8c7b-7a7ac8166726",
+			"name": "/new_data",
+			"url": "http://162.55.220.72:5006/new_data",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response JSON structure": true,
+				"Check response_salary[0] = request_salary by variable": true,
+				"Check response_salary[1] = request_salary * 2 by variable": true,
+				"Check response_salary[2] = request_salary * 3 by variable": true,
+				"Check response_salary[2] grater than response_salary[1] and response_salary[0]": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response JSON structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary[0] = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary[1] = request_salary * 2 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary[2] = request_salary * 3 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary[2] grater than response_salary[1] and response_salary[0]": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response JSON structure": true,
+					"Check response_salary[0] = request_salary by variable": true,
+					"Check response_salary[1] = request_salary * 2 by variable": true,
+					"Check response_salary[2] = request_salary * 3 by variable": true,
+					"Check response_salary[2] grater than response_salary[1] and response_salary[0]": true
+				}
+			]
+		},
+		{
+			"id": "e3d9a8b7-224e-432f-b2ea-03afbf815cd1",
+			"name": "/test_pet_info",
+			"url": "http://162.55.220.72:5006/test_pet_info",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response JSON structure": true,
+				"Check daily_food = request_weight * 0.012 by variable": true,
+				"Check daily_sleep = request_weight * 2.5 by variable": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response JSON structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check daily_food = request_weight * 0.012 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check daily_sleep = request_weight * 2.5 by variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response JSON structure": true,
+					"Check daily_food = request_weight * 0.012 by variable": true,
+					"Check daily_sleep = request_weight * 2.5 by variable": true
+				}
+			]
+		},
+		{
+			"id": "4e53b525-df84-4e2f-9dca-07d757c884f4",
+			"name": "/get_test_user",
+			"url": "http://162.55.220.72:5006/get_test_user",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response JSON structure": true,
+				"Check response_name = value of `name` variable from environment": true,
+				"Check response_age = request_age": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response JSON structure": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_name = value of `name` variable from environment": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_age = request_age": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response JSON structure": true,
+					"Check response_name = value of `name` variable from environment": true,
+					"Check response_age = request_age": true
+				}
+			]
+		},
+		{
+			"id": "c1ed275a-f4f5-4bf5-948a-bc67773d29ac",
+			"name": "/currency",
+			"url": "http://54.157.99.22:80/currency",
+			"time": 265,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"/curr_byn - Status code is 200": true,
+				"/curr_byn - Check response JSON structure": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"/curr_byn - Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"/curr_byn - Check response JSON structure": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				265
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"/curr_byn - Status code is 200": true,
+					"/curr_byn - Check response JSON structure": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1180,
+	"collection": {
+		"requests": [
+			{
+				"id": "5ac89d1f-2ac0-4959-9ef9-75cd1f403206",
+				"method": "POST"
+			},
+			{
+				"id": "8b774bf7-11dd-486e-971a-458b1d962000",
+				"method": "POST"
+			},
+			{
+				"id": "2778d959-8d55-47cc-8c7b-7a7ac8166726",
+				"method": "POST"
+			},
+			{
+				"id": "e3d9a8b7-224e-432f-b2ea-03afbf815cd1",
+				"method": "POST"
+			},
+			{
+				"id": "4e53b525-df84-4e2f-9dca-07d757c884f4",
+				"method": "POST"
+			},
+			{
+				"id": "c1ed275a-f4f5-4bf5-948a-bc67773d29ac",
+				"method": "POST"
+			}
+		]
+	}
+}

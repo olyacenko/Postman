@@ -1,0 +1,381 @@
+{
+	"id": "973bfe25-7b0d-4d46-aa35-64a1d2c8d9f3",
+	"name": "Home_work_2",
+	"timestamp": "2023-06-05T12:06:48.258Z",
+	"collection_id": "21754851-dfdf1617-8536-4318-a27d-324cae26ab4a",
+	"folder_id": 0,
+	"environment_id": "21754851-f9da6aa3-b525-49a9-8c0f-5be4eb7dd67a",
+	"totalPass": 39,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-05T12:06:47.089Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2cae9320-6da9-4e87-aeea-6c4c28fb19a4",
+			"name": "/first",
+			"url": "http://162.55.220.72:5006/first",
+			"time": 79,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check body to have right string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check body to have right string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				79
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check body to have right string": true
+				}
+			]
+		},
+		{
+			"id": "652b517c-afe9-4a7e-bc41-6727e0f0bd6f",
+			"name": "/user_info_3",
+			"url": "http://162.55.220.72:5006/user_info_3",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check respose_name = request_name manual ": true,
+				"Check respose_age = request_age manual ": true,
+				"Check respose_salary = request_salary manual ": true,
+				"Check respose_name = request_name by variable ": true,
+				"Check respose_age = request_age by variable ": true,
+				"Check respose_salary = request_salary by variable ": true,
+				"Check respose_u_salary_1_5_year = request_salary*4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_name = request_name manual ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_age = request_age manual ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_salary = request_salary manual ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_name = request_name by variable ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_age = request_age by variable ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_salary = request_salary by variable ": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check respose_u_salary_1_5_year = request_salary*4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check respose_name = request_name manual ": true,
+					"Check respose_age = request_age manual ": true,
+					"Check respose_salary = request_salary manual ": true,
+					"Check respose_name = request_name by variable ": true,
+					"Check respose_age = request_age by variable ": true,
+					"Check respose_salary = request_salary by variable ": true,
+					"Check respose_u_salary_1_5_year = request_salary*4": true
+				}
+			]
+		},
+		{
+			"id": "5ce0b4a9-f37e-45f2-a73d-83585025f405",
+			"name": "/object_info_3",
+			"url": "http://162.55.220.72:5006/object_info_3?name=Olya&age=29&salary=500",
+			"time": 72,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response_name = request_name by variable": true,
+				"Check response_age = request_age by variable": true,
+				"Check response_salary = request_salary by variable": true,
+				"Check param 'dog' has param 'name'": true,
+				"Check param 'dog' has param 'age'": true,
+				"Check param 'name' has value 'Luky'": true,
+				"Check param 'age' has value '4'": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_name = request_name by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_age = request_age by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check param 'dog' has param 'name'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check param 'dog' has param 'age'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check param 'name' has value 'Luky'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check param 'age' has value '4'": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response_name = request_name by variable": true,
+					"Check response_age = request_age by variable": true,
+					"Check response_salary = request_salary by variable": true,
+					"Check param 'dog' has param 'name'": true,
+					"Check param 'dog' has param 'age'": true,
+					"Check param 'name' has value 'Luky'": true,
+					"Check param 'age' has value '4'": true
+				}
+			]
+		},
+		{
+			"id": "39e1478a-8ca2-41ad-9d26-2b41aec3ad5b",
+			"name": "/object_info_4",
+			"url": "http://162.55.220.72:5006/object_info_4?name=Olya&age=29&salary=500",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response_name = request_name by variable": true,
+				"Check response_age = request_age by variable": true,
+				"Check response_salary_0 = request_salary by variable": true,
+				"Check response_salary_1 = request_salary by variable": true,
+				"Check response_salary_2 = request_salary by variable": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_name = request_name by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_age = request_age by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary_0 = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary_1 = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response_salary_2 = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response_name = request_name by variable": true,
+					"Check response_age = request_age by variable": true,
+					"Check response_salary_0 = request_salary by variable": true,
+					"Check response_salary_1 = request_salary by variable": true,
+					"Check response_salary_2 = request_salary by variable": true
+				}
+			]
+		},
+		{
+			"id": "21ce04d1-5cfa-48a4-92ad-b8812f8d587b",
+			"name": "/user_info_2",
+			"url": "http://162.55.220.72:5006/user_info_2",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Check response to have param 'start_qa_salary'": true,
+				"Check response to have param 'qa_salary_after_6_months'": true,
+				"Check response to have param 'qa_salary_after_12_months'": true,
+				"Check response to have param 'qa_salary_after_1.5_year'": true,
+				"Check response to have param 'qa_salary_after_3.5_years'": true,
+				"Check response to have param 'person'": true,
+				"Check start_qa_salary = request_salary by variable": true,
+				"Check qa_salary_after_6_months = request_salary*2 by variable": true,
+				"Check qa_salary_after_12_months = request_salary*2.7 by variable": true,
+				"Check qa_salary_after_1.5_year = request_salary*3.3 by variable": true,
+				"Check qa_salary_after_3.5_years = request_salary*3.8 by variable": true,
+				"Check first element of u_name = request_salary by variable": true,
+				"Check u_age = request_age by variable": true,
+				"Check u_salary_5_years = request_salary*4.2 by variable": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have param 'start_qa_salary'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have param 'qa_salary_after_6_months'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have param 'qa_salary_after_12_months'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have param 'qa_salary_after_1.5_year'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have param 'qa_salary_after_3.5_years'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response to have param 'person'": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check start_qa_salary = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_6_months = request_salary*2 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_12_months = request_salary*2.7 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_1.5_year = request_salary*3.3 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check qa_salary_after_3.5_years = request_salary*3.8 by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check first element of u_name = request_salary by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_age = request_age by variable": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check u_salary_5_years = request_salary*4.2 by variable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Check response to have param 'start_qa_salary'": true,
+					"Check response to have param 'qa_salary_after_6_months'": true,
+					"Check response to have param 'qa_salary_after_12_months'": true,
+					"Check response to have param 'qa_salary_after_1.5_year'": true,
+					"Check response to have param 'qa_salary_after_3.5_years'": true,
+					"Check response to have param 'person'": true,
+					"Check start_qa_salary = request_salary by variable": true,
+					"Check qa_salary_after_6_months = request_salary*2 by variable": true,
+					"Check qa_salary_after_12_months = request_salary*2.7 by variable": true,
+					"Check qa_salary_after_1.5_year = request_salary*3.3 by variable": true,
+					"Check qa_salary_after_3.5_years = request_salary*3.8 by variable": true,
+					"Check first element of u_name = request_salary by variable": true,
+					"Check u_age = request_age by variable": true,
+					"Check u_salary_5_years = request_salary*4.2 by variable": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 365,
+	"collection": {
+		"requests": [
+			{
+				"id": "2cae9320-6da9-4e87-aeea-6c4c28fb19a4",
+				"method": "GET"
+			},
+			{
+				"id": "652b517c-afe9-4a7e-bc41-6727e0f0bd6f",
+				"method": "POST"
+			},
+			{
+				"id": "5ce0b4a9-f37e-45f2-a73d-83585025f405",
+				"method": "GET"
+			},
+			{
+				"id": "39e1478a-8ca2-41ad-9d26-2b41aec3ad5b",
+				"method": "GET"
+			},
+			{
+				"id": "21ce04d1-5cfa-48a4-92ad-b8812f8d587b",
+				"method": "POST"
+			}
+		]
+	}
+}

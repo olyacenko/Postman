@@ -1,0 +1,176 @@
+{
+	"id": "6ad64b83-d38a-464c-8fd3-14591e0db2eb",
+	"name": "Home_work_1",
+	"timestamp": "2023-06-05T12:05:58.993Z",
+	"collection_id": "21754851-f1e4663b-75d8-467d-b6a2-90d823e107e4",
+	"folder_id": 0,
+	"environment_id": "21754851-f9da6aa3-b525-49a9-8c0f-5be4eb7dd67a",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-05T12:05:57.343Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "43472d94-c582-4d36-abcb-bd83f792b0e8",
+			"name": "/get_method",
+			"url": "http://162.55.220.72:5006/get_method?name=Olya&age=29",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				78
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7a10066f-990a-4c7d-9003-9f955c8c53a5",
+			"name": "/user_info_3",
+			"url": "http://162.55.220.72:5006/user_info_3",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				78
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "22594c69-4842-4a74-86bd-e885ecdf2691",
+			"name": "/object_info_1",
+			"url": "http://162.55.220.72:5006/object_info_1?name=Olya&age=29&weight=63",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				66
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2570a35f-4bf7-4968-94c0-49c6dd6c0dc6",
+			"name": "/object_info_2",
+			"url": "http://162.55.220.72:5006/object_info_2?name=Olya&age=29&salary=500",
+			"time": 68,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				68
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b2ca8559-7fbd-4681-a7c4-f6efe7763cac",
+			"name": "/object_info_3",
+			"url": "http://162.55.220.72:5006/object_info_3?name=Olya&age=29&salary=500",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				73
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "55818d0e-a347-4a74-b5ec-52e3132265ae",
+			"name": "/object_info_4",
+			"url": "http://162.55.220.72:5006/object_info_4?name=Olya&age=29&salary=500",
+			"time": 324,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				324
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "88d2c241-323e-4d8f-a223-e21424cca9c7",
+			"name": "/user_info_2",
+			"url": "http://162.55.220.72:5006/user_info_2",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				71
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 758,
+	"collection": {
+		"requests": [
+			{
+				"id": "43472d94-c582-4d36-abcb-bd83f792b0e8",
+				"method": "GET"
+			},
+			{
+				"id": "7a10066f-990a-4c7d-9003-9f955c8c53a5",
+				"method": "POST"
+			},
+			{
+				"id": "22594c69-4842-4a74-86bd-e885ecdf2691",
+				"method": "GET"
+			},
+			{
+				"id": "2570a35f-4bf7-4968-94c0-49c6dd6c0dc6",
+				"method": "GET"
+			},
+			{
+				"id": "b2ca8559-7fbd-4681-a7c4-f6efe7763cac",
+				"method": "GET"
+			},
+			{
+				"id": "55818d0e-a347-4a74-b5ec-52e3132265ae",
+				"method": "GET"
+			},
+			{
+				"id": "88d2c241-323e-4d8f-a223-e21424cca9c7",
+				"method": "POST"
+			}
+		]
+	}
+}
